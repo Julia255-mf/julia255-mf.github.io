@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biblioteca - Lista de Livros</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .book-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .book {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .book img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+
+    .book-info {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .book-info p {
+      margin: 0.3rem 0;
+    }
+
+    .btn {
+      background: #3498db;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #2980b9;
+    }
+
+    .loading {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Biblioteca</h1>
+  </header>
+
+  <div class="container">
+    <div id="loading" class="loading">Carregando livros...</div>
+    <div class="book-list" id="book-list"></div>
+  </div>
+
+  <script>
+    // Função para criar o HTML de cada livro
+    function criarLivroHTML(livro) {
+      return `
+        <div class="book">
+          <img src="${livro.capa}" alt="Capa do livro ${livro.titulo}" />
+          <div class="book-info">
+            <p><strong>Código:</strong> ${livro.codigo}</p>
+            <p><strong>Título:</strong> ${livro.titulo}</p>
+            <p><strong>Autor:</strong> ${livro.autor}</p>
+            <p><strong>Editora:</strong> ${livro.editora}</p>
+            <p><strong>Ano:</strong> ${livro.ano}</p>
+          </div>
+          <button class="btn" onclick="reservarLivro('${livro.codigo}')">Reservar</button>
+        </div>
+      `;
+    }
+
+    // Função para simular reserva (exemplo simples)
+    function reservarLivro(codigo) {
+      alert(`Livro com código ${codigo} reservado com sucesso!`);
+    }
+
+    // Buscar os livros do JSON
+    fetch('livros.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Erro ao carregar o arquivo JSON');
+        }
+        return response.json();
+      })
+      .then(data => {
+        const lista = document.getElementById('book-list');
+        lista.innerHTML = data.map(criarLivroHTML).join('');
+        document.getElementById('loading').style.display = 'none';
+      })
+      .catch(error => {
+        document.getElementById('loading').textContent = 'Erro ao carregar os livros.';
+        console.error('Erro:', error);
+      });
+  </script>
+
+</body>
+</html>

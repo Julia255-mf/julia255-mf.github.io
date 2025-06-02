@@ -1,0 +1,243 @@
+[
+    {
+      "codigo": "001",
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "ano": 1899,
+      "editora": "XYZ",
+      "capa": "https://via.placeholder.com/150x220?text=Dom+Casmurro"
+    },
+    {
+      "codigo": "002",
+      "titulo": "O Cortiço",
+      "autor": "Aluísio Azevedo",
+      "ano": 1890,
+      "editora": "ABC Editora",
+      "capa": "https://via.placeholder.com/150x220?text=O+Cortiço"
+    },
+    {
+      "codigo": "003",
+      "titulo": "Capitães da Areia",
+      "autor": "Jorge Amado",
+      "ano": 1937,
+      "editora": "Companhia das Letras",
+      "capa": "https://via.placeholder.com/150x220?text=Capitães+da+Areia"
+    },
+    {
+      "codigo": "004",
+      "titulo": "A Hora da Estrela",
+      "autor": "Clarice Lispector",
+      "ano": 1977,
+      "editora": "Rocco",
+      "capa": "https://via.placeholder.com/150x220?text=A+Hora+da+Estrela"
+    },
+    {
+      "codigo": "005",
+      "titulo": "Grande Sertão: Veredas",
+      "autor": "João Guimarães Rosa",
+      "ano": 1956,
+      "editora": "Nova Fronteira",
+      "capa": "https://via.placeholder.com/150x220?text=Grande+Sertão"
+    },
+    {
+      "codigo": "006",
+      "titulo": "Vidas Secas",
+      "autor": "Graciliano Ramos",
+      "ano": 1938,
+      "editora": "Record",
+      "capa": "https://via.placeholder.com/150x220?text=Vidas+Secas"
+    },
+    {
+      "codigo": "007",
+      "titulo": "Memórias Póstumas de Brás Cubas",
+      "autor": "Machado de Assis",
+      "ano": 1881,
+      "editora": "Globo",
+      "capa": "https://via.placeholder.com/150x220?text=Brás+Cubas"
+    },
+    {
+      "codigo": "008",
+      "titulo": "Iracema",
+      "autor": "José de Alencar",
+      "ano": 1865,
+      "editora": "Martin Claret",
+      "capa": "https://via.placeholder.com/150x220?text=Iracema"
+    },
+    {
+      "codigo": "009",
+      "titulo": "O Guarani",
+      "autor": "José de Alencar",
+      "ano": 1857,
+      "editora": "Martin Claret",
+      "capa": "https://via.placeholder.com/150x220?text=O+Guarani"
+    },
+    {
+      "codigo": "010",
+      "titulo": "Senhora",
+      "autor": "José de Alencar",
+      "ano": 1875,
+      "editora": "Martin Claret",
+      "capa": "https://via.placeholder.com/150x220?text=Senhora"
+    },
+    {
+      "codigo": "011",
+      "titulo": "Auto da Compadecida",
+      "autor": "Ariano Suassuna",
+      "ano": 1955,
+      "editora": "Agir",
+      "capa": "https://via.placeholder.com/150x220?text=Auto+da+Compadecida"
+    },
+    {
+      "codigo": "012",
+      "titulo": "Mayombe",
+      "autor": "Pepetela",
+      "ano": 1980,
+      "editora": "UFMG",
+      "capa": "https://via.placeholder.com/150x220?text=Mayombe"
+    },
+    {
+      "codigo": "013",
+      "titulo": "O Alienista",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "editora": "Globo",
+      "capa": "https://via.placeholder.com/150x220?text=O+Alienista"
+    },
+    {
+      "codigo": "014",
+      "titulo": "Marília de Dirceu",
+      "autor": "Tomás Antônio Gonzaga",
+      "ano": 1792,
+      "editora": "Saraiva",
+      "capa": "https://via.placeholder.com/150x220?text=Marília+de+Dirceu"
+    },
+    {
+      "codigo": "015",
+      "titulo": "Os Sertões",
+      "autor": "Euclides da Cunha",
+      "ano": 1902,
+      "editora": "Companhia Editora Nacional",
+      "capa": "https://via.placeholder.com/150x220?text=Os+Sertões"
+    },
+    {
+      "codigo": "016",
+      "titulo": "Lucíola",
+      "autor": "José de Alencar",
+      "ano": 1862,
+      "editora": "Martin Claret",
+      "capa": "https://via.placeholder.com/150x220?text=Lucíola"
+    },
+    {
+      "codigo": "017",
+      "titulo": "O Primo Basílio",
+      "autor": "Eça de Queirós",
+      "ano": 1878,
+      "editora": "L&PM",
+      "capa": "https://via.placeholder.com/150x220?text=Primo+Basílio"
+    },
+    {
+      "codigo": "018",
+      "titulo": "Amar, Verbo Intransitivo",
+      "autor": "Mário de Andrade",
+      "ano": 1927,
+      "editora": "Nova Fronteira",
+      "capa": "https://via.placeholder.com/150x220?text=Amar+Verbo+Intransitivo"
+    },
+    {
+      "codigo": "019",
+      "titulo": "Macunaíma",
+      "autor": "Mário de Andrade",
+      "ano": 1928,
+      "editora": "Nova Fronteira",
+      "capa": "https://via.placeholder.com/150x220?text=Macunaíma"
+    },
+    {
+      "codigo": "020",
+      "titulo": "Triste Fim de Policarpo Quaresma",
+      "autor": "Lima Barreto",
+      "ano": 1915,
+      "editora": "Ática",
+      "capa": "https://via.placeholder.com/150x220?text=Policarpo+Quaresma"
+    },
+    {
+      "codigo": "021",
+      "titulo": "Quincas Borba",
+      "autor": "Machado de Assis",
+      "ano": 1891,
+      "editora": "Globo",
+      "capa": "https://via.placeholder.com/150x220?text=Quincas+Borba"
+    },
+    {
+      "codigo": "022",
+      "titulo": "A Moreninha",
+      "autor": "Joaquim Manuel de Macedo",
+      "ano": 1844,
+      "editora": "Martin Claret",
+      "capa": "https://via.placeholder.com/150x220?text=A+Moreninha"
+    },
+    {
+      "codigo": "023",
+      "titulo": "A Escrava Isaura",
+      "autor": "Bernardo Guimarães",
+      "ano": 1875,
+      "editora": "Martin Claret",
+      "capa": "https://via.placeholder.com/150x220?text=Escrava+Isaura"
+    },
+    {
+      "codigo": "024",
+      "titulo": "Til",
+      "autor": "José de Alencar",
+      "ano": 1872,
+      "editora": "Martin Claret",
+      "capa": "https://via.placeholder.com/150x220?text=Til"
+    },
+    {
+      "codigo": "025",
+      "titulo": "Inocência",
+      "autor": "Visconde de Taunay",
+      "ano": 1872,
+      "editora": "Saraiva",
+      "capa": "https://via.placeholder.com/150x220?text=Inocência"
+    },
+    {
+      "codigo": "026",
+      "titulo": "A Bagaceira",
+      "autor": "José Américo de Almeida",
+      "ano": 1928,
+      "editora": "José Olympio",
+      "capa": "https://via.placeholder.com/150x220?text=A+Bagaceira"
+    },
+    {
+      "codigo": "027",
+      "titulo": "Lusíadas",
+      "autor": "Luís de Camões",
+      "ano": 1572,
+      "editora": "Publicações Europa-América",
+      "capa": "https://via.placeholder.com/150x220?text=Lusíadas"
+    },
+    {
+      "codigo": "028",
+      "titulo": "O Primo Basílio",
+      "autor": "Eça de Queirós",
+      "ano": 1878,
+      "editora": "L&PM",
+      "capa": "https://via.placeholder.com/150x220?text=O+Primo+Basílio"
+    },
+    {
+      "codigo": "029",
+      "titulo": "O Tempo e o Vento",
+      "autor": "Érico Veríssimo",
+      "ano": 1949,
+      "editora": "Editora Globo",
+      "capa": "https://via.placeholder.com/150x220?text=O+Tempo+e+o+Vento"
+    },
+    {
+      "codigo": "030",
+      "titulo": "A Paixão Segundo G.H.",
+      "autor": "Clarice Lispector",
+      "ano": 1964,
+      "editora": "Rocco",
+      "capa": "https://via.placeholder.com/150x220?text=A+Paixão+Segundo+G.H."
+    }
+  ]
+  
